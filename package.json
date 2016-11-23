@@ -31,7 +31,11 @@
     "webpack-dev-server": "^1.16.2"
   },
   "scripts": {
-    "front-end-server": "webpack-dev-server --progress --colors"
+    "front-end-server": "webpack-dev-server --progress --colors",
+    "compile_front_end": "mkdir -p dist && babel lib --out-dir dist",
+    "bundle_front_end": "webpack --progress --colors dist/homepage.js public/bundle.js",
+    "front_end": "npm run compile_front_end && npm run bundle_front_end",
+    "front-end": "webpack --progress --colors"
   },
   "author": "Robert Gevorgyan <robert1999.g@gmail.com>",
   "license": "MIT"

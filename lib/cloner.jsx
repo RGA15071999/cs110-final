@@ -19,7 +19,7 @@ class Cloner extends React.Component {
     });
     return (
       <div className = "Cloner">
-        {cloneNodes};
+        {cloneNodes}
       </div>
     );
   }

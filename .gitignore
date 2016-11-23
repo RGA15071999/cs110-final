@@ -3,3 +3,4 @@ dist
 *.o
 .tern-port
 bundle.js
+npm-debug.log
