@@ -14,15 +14,18 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   module:{
-    loaders:[{
-      test: /\.jsx?$/,
-      loader: 'babel',
-      exclude:/node_modules/,
-      include: `${__dirname}/lib`,
-      query: {
-        // Here you can put plugins, like plugins:['transform-runtime']
-        presets: ['es2015', 'react', 'stage-3']
-      }
-    }]
+    loaders:[
+      { test: /\.json$/, loader: 'json' },
+      {
+        test: /\.jsx?$/,
+        loader: 'babel',
+        exclude:/node_modules/,
+        include: `${__dirname}/lib`,
+        query: {
+          // Here you can put plugins, like plugins:['transform-runtime']
+          presets: ['es2015', 'react', 'stage-3']
+        }
+      },
+   ]
   }
 };

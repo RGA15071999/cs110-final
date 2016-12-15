@@ -1,0 +1,35 @@
+{ "HarryPotter": [
+  "Accio",
+  "Dementor",
+  "Fawkes",
+  "Quidditch",
+  "Felix Felicis",
+  "Muggle"
+],
+"music": [
+  "violin",
+  "piano",
+  "tonality",
+  "major",
+  "symphony",
+  "concerto"
+],
+"famousPeople": [
+  "Charles Aznavour",
+  "Mahatma Gandhi",
+  "Bill Gates",
+  "Steve Jobs",
+  "Marilyn Monroe",
+  "Michael Jordan"
+
+],
+"animals": [
+  "rabbit",
+  "lion",
+  "pig",
+  "horse",
+  "donkey",
+  "monkey"
+
+  ]
+}
