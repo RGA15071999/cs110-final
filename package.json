@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "CS Final Project by RHM - ",
   "dependencies": {
+    "material-design-icons": "^3.0.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },

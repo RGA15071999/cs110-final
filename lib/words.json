@@ -4,7 +4,11 @@
   "Fawkes",
   "Quidditch",
   "Felix Felicis",
-  "Muggle"
+  "Muggle",
+  "Harry Potter",
+  "Hermione",
+  "Ron Weasley",
+  "Hogwarts"
 ],
 "music": [
   "violin",
@@ -12,15 +16,38 @@
   "tonality",
   "major",
   "symphony",
-  "concerto"
+  "concerto",
+  "Sia",
+  "conductor",
+  "string",
+  "opera",
+  "Adele",
+  "Jazz",
+  "rock",
+  "guitar",
+  "Vivaldi"
 ],
 "famousPeople": [
-  "Charles Aznavour",
   "Mahatma Gandhi",
   "Bill Gates",
   "Steve Jobs",
   "Marilyn Monroe",
-  "Michael Jordan"
+  "Michael Jordan",
+  "Abraham Lincoln",
+  "Barack Obama",
+  "Elvis Presley",
+  "Donald Trump",
+  "David Backham",
+  "Jim Carrey",
+  "Anne Frank",
+  "Will Smith",
+  "Diana",
+  "Isaac Newton",
+  "Charles Darwin",
+  "Nikola Tesla",
+  "Michael Faraday",
+  "Thomas Edison",
+  "Ronaldo"
 
 ],
 "animals": [
@@ -29,7 +56,21 @@
   "pig",
   "horse",
   "donkey",
-  "monkey"
+  "monkey",
+  "frog",
+  "fox",
+  "fish",
+  "panda",
+  "bear",
+  "wolf",
+  "dog",
+  "cat",
+  "mouse",
+  "alligator",
+  "cow",
+  "gorilla",
+  "kangaroo",
+  "chicken"
 
   ]
 }

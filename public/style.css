@@ -10,16 +10,84 @@
   border-color: #2E1C6B;
 }
 
+p{
+  margin: 0;
+  padding: 0;
+}
+.material-icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size:70px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+.button1 {
+  width:490px;
+  height: 150px;
+  margin: 0px;
+  font-size: 50px;
+  color: #FFFFFF;
+  background-color: #E33405;
+}
+
+.button2{
+  width:490px;
+  height: 150px;
+  margin: 0px;
+  font-size: 50px;
+  color: #FFFFFF;
+  background-color: #037ABD;
+  background-size: 100px 150px;
+  background-repeat: no-repeat;
+}
+
+.button3{
+  width:490px;
+  height: 150px;
+  margin: 0px;
+  font-size: 50px;
+  color: #FFFFFF;
+  background-color: #E33405;
+}
+
+.button4{
+  width:490px;
+  height: 150px;
+  margin: 0px;
+  font-size: 50px;
+  color: #FFFFFF;
+  background-color:#037ABD ;
+}
+
 .active{
-  background-color: red;
+  background-color: #31B846;
 }
 .hidden{
   display: none;
 }
 .mainStyle{
   color: #230137;
-  border-color:#000000;
-  background-color: #B3A3EC;
+  border-color:#E33405;
+  background-color: #037ABD;
   width: 500px;
   height: 600px;
   text-align: center;

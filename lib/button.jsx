@@ -62,11 +62,12 @@ class Button extends React.Component{
 
   render(){
     let mainStyle = {
-      color: '#230137',
-      borderColor:'#000000',
-      backgroundColor:'#B3A3EC',
+      fontSize: '15px',
+      backgroundColor: '#037ABD',
+      color: '#ffffff',
+      border:'4px solid black',
       width:'500px',
-      height:'600px',
+      height:'680px',
       textAlign:'center',
       margin:'0px auto',
       display:'flex',
@@ -80,15 +81,14 @@ class Button extends React.Component{
       nodes.push(<button key={i} className={this.state.active[i]?'button active':'button'} id={i} onClick={this.handleClick}>{this.state.words[i]}</button>)
     }
 
-
-
     return(
     <div style = {mainStyle} >
       <div>
-        <button id = {'1'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button'} >Harry Potter</button>
-        <button id = {'2'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button'}>Famous People</button>
-        <button id = {'3'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button'}>Animals</button>
-        <button id = {'4'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button'}>Music</button>
+        <h1>Guess the word</h1>
+        <button id = {'1'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button1'} ><i className={'material-icon'}>flash_on</i><p>Harry Potter</p></button>
+        <button id = {'2'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button2'}><i className={'material-icon'}>people</i><p>Famous People</p></button>
+        <button id = {'3'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button3'}><i className={'material-icon'}>pets</i><p>Animals</p></button>
+        <button id = {'4'} onClick = {this.select} className={this.state.selected ? 'hidden' : 'button4'}><i className={'material-icon'}>music_note</i><p>Music</p></button>
       </div>
       <div className={this.state.selected ? 'mainStyle' : 'hidden'}>
         <h1>Counting Words : {this.state.counter}</h1>
